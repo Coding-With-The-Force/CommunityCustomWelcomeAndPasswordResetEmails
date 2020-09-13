@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="Toight You Joined" recipientType="Contact" relatedToType="Network">
+<messaging:htmlEmailBody >
+
+<c:ToightComPassReset contactIdPassed="{!recipient.Id}"></c:ToightComPassReset>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,14 @@
+<!--
+ - Created by gerry on 9/12/2020.
+ -->
+
+<apex:component id="ToightComPassReset" access="global" controller="ToightComPassResetController">
+	<apex:attribute name="contactIdPassed" description="Contact id passed from email template" type="Id" assignTo="{!contactIdPassedCtrl}"/>
+
+	<p>Hi bro wut upppppppppppppp</p>
+
+	<div style="{!IF(ProfileName='Customer Community Plus Login User', 'display:block', 'display:none')}">
+		<a href="{!$Network.NetworkUrlForUserEmails}">Click here to reset your password</a>
+	</div>
+
+</apex:component>
